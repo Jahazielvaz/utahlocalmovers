@@ -1,0 +1,36 @@
+body{
+  font-family: 'cinzel';
+}
+
+header{
+  border-bottom: 1px solid #FFBE00;
+  overflow: hidden;
+  margin: 0 20px;
+}
+
+#number{
+  float: right;
+  margin: 30px 20px;
+}
+
+#page-container{
+  border: 2px solid pink;
+  text-align: center;
+}
+
+#page-container > section{
+  border: 1px solid blue;
+  padding: 20px;
+  display: inline-block;
+  margin: 10px;
+  height: 100vh;
+
+}
+
+#images-section{
+  width: 50%;
+}
+
+#value-prop-section{
+  
+}
