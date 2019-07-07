@@ -1,3 +1,10 @@
+*{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 body{
   font-family: 'cinzel';
 }
@@ -6,31 +13,42 @@ header{
   border-bottom: 1px solid #FFBE00;
   overflow: hidden;
   margin: 0 20px;
+  position: fixed;
+  box-sizing: border-box;
+  background: white;
+  width: 95vw;
+  z-index: 1;
 }
 
 #number{
   float: right;
-  margin: 30px 20px;
+  margin: 20px;
 }
 
 #page-container{
-  border: 2px solid pink;
-  text-align: center;
+  /* border: 2px solid pink; */
+  position: relative;
+  top: 100px;
 }
 
 #page-container > section{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   padding: 20px;
   display: inline-block;
-  margin: 10px;
   height: 100vh;
-
+  overflow: hidden;
 }
 
 #images-section{
   width: 50%;
+  margin-left: 2vw;
 }
 
 #value-prop-section{
-  
+  max-width: 37vw;
+}
+
+hr{
+  height: 2px solid black;
+
 }
