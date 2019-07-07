@@ -22,4 +22,4 @@
 ## Site Instructions
 
 ### Site Colors
-- Logo: rgba(255, 190, 0)
+- Logo: rgba(255, 190, 0) hex #FFBE00

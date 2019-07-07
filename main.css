@@ -1,8 +1,8 @@
 *{
-  list-style: none;
   margin: 0;
   padding: 0;
   border: 0;
+  list-style: none;
 }
 
 body{
@@ -29,19 +29,33 @@ header{
   /* border: 2px solid pink; */
   position: relative;
   top: 100px;
+  display: flex;
 }
 
 #page-container > section{
   /* border: 1px solid blue; */
   padding: 20px;
-  display: inline-block;
-  height: 100vh;
-  overflow: hidden;
+  flex-grow: 1;
+  min-height: 110vh;
 }
 
 #images-section{
   width: 50%;
   margin-left: 2vw;
+  overflow: hidden;
+  border: 2px solid purple;
+  height: 100vh;
+}
+
+.images-section-images{
+  height: 230px;
+  width: 420px;
+  box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, .2);
+  margin: 5px;
+}
+
+.image-two{
+  float: right;
 }
 
 #value-prop-section{
@@ -49,6 +63,10 @@ header{
 }
 
 hr{
-  height: 2px solid black;
+  border-radius: 15px;
+  border-bottom: 1px solid black;
+}
 
+button{
+  
 }
