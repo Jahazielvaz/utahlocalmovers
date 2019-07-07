@@ -19,3 +19,7 @@
 - Our staff can rent a moving vehicle at the company of your choice, and you simply pay those fees (No additional costs incurred)
 - We have available moving vehicles that you can choose as well. Our rate is 80 cents per mile, no upfront costs. You simply pay the miles.
 ---
+## Site Instructions
+
+### Site Colors
+- Logo: rgba(255, 190, 0)
