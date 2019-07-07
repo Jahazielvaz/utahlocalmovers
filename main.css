@@ -30,6 +30,7 @@ header{
   top: 100px;
   display: flex;
   padding: 10px;
+
 }
 
 #page-container > section{
@@ -51,7 +52,7 @@ header{
   height: 230px;
   width: 420px;
   box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, .2);
-  margin: 5px;
+  margin: 7px;
 }
 
 .image-two{
@@ -92,4 +93,19 @@ button:hover{
   background: #FFBE00;
   color: white;
   transition: .7s;
+}
+
+footer{
+  padding: 10px;
+  /* border: 2px solid yellow; */
+  position: relative;
+  top: 100px;
+  background: #FFBE00;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h3{
+  font-size: 15px;
+  color: white;
 }
