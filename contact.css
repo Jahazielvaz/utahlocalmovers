@@ -1,0 +1,88 @@
+*{
+  border: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'cinzel', 'abel';
+}
+
+header{
+  border-bottom: 1px solid #FFBE00;
+  overflow: hidden;
+  position: fixed;
+  box-sizing: border-box;
+  background: white;
+  width: 100vw;
+  z-index: 1;
+}
+
+#number{
+  float: right;
+  margin: 20px;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+#page-container{
+  /* border: 5px solid pink; */
+  position: relative;
+  top: 100px;
+  /* display: flex; */
+  padding-top: 5px;
+  min-height: 77vh;
+  /* flex-direction: column; */
+}
+
+.contact-sections{
+  /* border: 2px solid blue; */
+  padding: 10px;
+  margin: 10px;
+
+}
+
+#contact-image{
+  min-height: 60vh;
+  box-shadow: 3px 3px 10px 3px rgba(0,0,0, .3);
+  background: url('./media-files/home.jpg')center center no-repeat;
+  background-size: 100%;
+}
+
+#contact-text{
+  /* height: 20%; */
+  text-align: center;
+  margin: 10px;
+  /* border: 3px solid purple; */
+}
+
+#contact-text > ul > li{
+  /* border: 5px solid purple; */
+  font-size: 20px;
+  font-weight: bolder;
+  /* line-height: 25px; */
+  /* margin: 10px; */
+}
+
+.contact-info-title{
+  text-align: center;
+  border: 2px solid black;
+  max-width: 50%;
+  margin: auto;
+}
+
+footer{
+  padding: 10px;
+  /* border: 2px solid yellow; */
+  position: relative;
+  top: 100px;
+  background: #FFBE00;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h3{
+  font-size: 15px;
+  color: white;
+}
