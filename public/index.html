@@ -7,6 +7,15 @@
     <link rel="stylesheet" type="text/css" href="./main.css">
     <link href="https://fonts.googleapis.com/css?family=Abel|Cinzel|Merriweather|Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/utah-local-movers.appspot.com/o/moving-today%2Flogos%2Fmoving-icon.png?alt=media&token=83ce6efe-19d5-48a8-9bcb-56b77ed9db02">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/5.9.3/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/5.9.3/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.9.3/firebase-database.js"></script>
+    <script defer src="/__/firebase/5.9.3/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/5.9.3/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
   </head>
   <body>
     <header>
@@ -51,26 +60,7 @@
       <h3>@created by imagine tech</h3>
     </footer>
 
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
 
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-         https://firebase.google.com/docs/web/setup#config-web-app -->
-
-    <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyAiQ9eddzJYfPy4OJrb0eA42xkhTYzyj_0",
-        authDomain: "utah-local-movers.firebaseapp.com",
-        databaseURL: "https://utah-local-movers.firebaseio.com",
-        projectId: "utah-local-movers",
-        storageBucket: "",
-        messagingSenderId: "430798086297",
-        appId: "1:430798086297:web:1b3c0da29aa609a1"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-    </script>
     <script src="./index.js"></script>
   </body>
 </html>
