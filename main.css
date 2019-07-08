@@ -47,14 +47,14 @@ header{
   /* margin-left: 2vw; */
   overflow: hidden;
   /* border: 2px solid purple; */
-  height: 100vh;
+  height: 120vh;
 }
 
 .images-section-images{
   height: 230px;
   width: 420px;
   box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, .2);
-  margin: 7px;
+  margin: 15px 10px;
 }
 
 .image-two{
@@ -110,4 +110,10 @@ footer{
 h3{
   font-size: 15px;
   color: white;
+}
+
+span{
+  font-weight: bolder;
+  font-size: 25px;
+  color: #a22;
 }

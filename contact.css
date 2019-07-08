@@ -46,7 +46,7 @@ header{
 #contact-image{
   min-height: 60vh;
   box-shadow: 3px 3px 10px 3px rgba(0,0,0, .3);
-  background: url('./media-files/home.jpg')center center no-repeat;
+  background: url('https://firebasestorage.googleapis.com/v0/b/utah-local-movers.appspot.com/o/moving-today%2Flast-minute-moving.jpg?alt=media&token=8c8a16a8-53db-4835-a3dd-0923a3863898')center center no-repeat;
   background-size: 100%;
 }
 
