@@ -27,17 +27,13 @@ header{
 }
 
 #page-container{
-  /* border: 5px solid pink; */
   position: relative;
   top: 100px;
-  /* display: flex; */
   padding-top: 5px;
   min-height: 77vh;
-  /* flex-direction: column; */
 }
 
 .contact-sections{
-  /* border: 2px solid blue; */
   padding: 10px;
   margin: 10px;
 
@@ -82,7 +78,7 @@ h3{
 
 /* Media Queries */
 
-@media(max-width: 635px){
+@media(max-width: 800px){
   header{
     border-bottom: 1px solid #FFBE00;
     position: static;
@@ -121,7 +117,6 @@ h3{
 
   footer{
     padding: 5px;
-    /* border: 2px solid yellow; */
     position: static;
     top: 0;
     background: #FFBE00;
@@ -130,6 +125,7 @@ h3{
   }
 
   #contact-image{
+    margin: 20px;
     min-height: 53vh;
     box-shadow: 3px 3px 10px 3px rgba(0,0,0, .3);
     background: url("https://firebasestorage.googleapis.com/v0/b/utah-local-movers.appspot.com/o/moving-today%2Fskilled-movers.jpg?alt=media&token=dd9479f7-487f-4f5c-9e39-0feb86095fab")center center no-repeat;
