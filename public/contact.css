@@ -78,7 +78,7 @@ h3{
 
 /* Media Queries */
 
-@media(max-width: 800px){
+@media(max-width: 1000px){
   header{
     border-bottom: 1px solid #FFBE00;
     position: static;
