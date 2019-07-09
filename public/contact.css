@@ -47,22 +47,17 @@ header{
   min-height: 60vh;
   box-shadow: 3px 3px 10px 3px rgba(0,0,0, .3);
   background: url('https://firebasestorage.googleapis.com/v0/b/utah-local-movers.appspot.com/o/moving-today%2Flast-minute-moving.jpg?alt=media&token=696de5fc-6e32-419b-a0fd-f5f628b6598c')center center no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 #contact-text{
-  /* height: 20%; */
   text-align: center;
   margin: 10px;
-  /* border: 3px solid purple; */
 }
 
 #contact-text > ul > li{
-  /* border: 5px solid purple; */
   font-size: 20px;
   font-weight: bolder;
-  /* line-height: 25px; */
-  /* margin: 10px; */
 }
 
 .contact-info-title{
@@ -73,8 +68,6 @@ header{
 }
 
 footer{
-  padding: 10px;
-  /* border: 2px solid yellow; */
   position: relative;
   top: 100px;
   background: #FFBE00;
@@ -86,3 +79,61 @@ h3{
   font-size: 15px;
   color: white;
 }
+
+/* Media Queries */
+
+@media(max-width: 635px){
+  header{
+    border-bottom: 1px solid #FFBE00;
+    position: static;
+    box-sizing: border-box;
+    background: white;
+    margin: none;
+    padding: none;
+  }
+
+  header > a{
+    text-align: center;
+  }
+
+  header > a > img{
+    width: 70%;
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+
+  #number{
+    display: block;
+    margin: 10px auto;
+    font-size: 25px;
+    font-weight: bolder;
+    float: none;
+    text-align: center;
+  }
+
+  #page-container{
+    position: static;
+    top: 0;
+    padding-top: 0;
+    min-height: auto;
+  }
+
+  footer{
+    padding: 5px;
+    /* border: 2px solid yellow; */
+    position: static;
+    top: 0;
+    background: #FFBE00;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #contact-image{
+    min-height: 53vh;
+    box-shadow: 3px 3px 10px 3px rgba(0,0,0, .3);
+    background: url("https://firebasestorage.googleapis.com/v0/b/utah-local-movers.appspot.com/o/moving-today%2Fskilled-movers.jpg?alt=media&token=dd9479f7-487f-4f5c-9e39-0feb86095fab")center center no-repeat;
+    background-size: cover;
+  }
+
+} /* End of media queries */
