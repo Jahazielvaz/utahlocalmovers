@@ -77,8 +77,6 @@ button{
   border-radius: 15px;
   border: 2px solid #FFBE00;
   color: #FFBE00;
-  /* display: block; */
-  /* margin: auto; */
   box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, .3);
   cursor: pointer;
 }
@@ -99,7 +97,6 @@ button:hover{
 
 footer{
   padding: 10px;
-  /* border: 2px solid yellow; */
   position: relative;
   top: 100px;
   background: #FFBE00;
@@ -117,3 +114,100 @@ span{
   font-size: 25px;
   color: #a22;
 }
+
+#query-image{
+  display: none;
+}
+
+/* MEDIA QUERIES */
+@media(max-width: 635px){
+  header{
+    border-bottom: 1px solid #FFBE00;
+    position: static;
+    box-sizing: border-box;
+    background: white;
+    margin: none;
+    padding: none;
+  }
+
+  header > a{
+    text-align: center;
+  }
+
+  header > a > img{
+    width: 70%;
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+
+  #number{
+    display: block;
+    margin: 10px auto;
+    font-size: 25px;
+    font-weight: bolder;
+    float: none;
+    text-align: center;
+  }
+
+  #page-container{
+    border: 2px solid pink;
+    position: static;
+    display: block;
+    padding: 0;
+    min-height: inherit;
+
+  }
+
+  #images-section{
+    display: none;
+  }
+
+  #value-prop-section{
+    max-width: 100vw;
+    min-height: 100vh;
+    border: 2px solid green;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #query-image{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  footer{
+    padding: 5px;
+    /* border: 2px solid yellow; */
+    position: static;
+    top: 0;
+    background: #FFBE00;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .one, .two, .title-one-two{
+    display: none;
+  }
+
+  button{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 15px;
+    border: 2px solid #FFBE00;
+    color: #FFBE00;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    margin: 20px auto;
+  }
+
+
+
+
+
+
+
+} /* End of media query */
